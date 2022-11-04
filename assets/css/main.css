@@ -1,0 +1,68 @@
+/* wire frame: TODO: delete later */
+header,
+ main,
+  footer {
+    border: 1px solid navy;
+    scroll-behavior: smooth;
+
+  }
+  
+  
+  /* reset */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* element selectors */
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+  }
+  img {
+      width: 100%;
+  }
+  header {
+    background: url('./../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:darkgrey
+  
+  }
+  
+  header, 
+  main,
+  footer {
+    padding: 1.5rem;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  
+  /* classes */
+  .mt- {
+    margin-top: 0.75rem;
+  }
+
+  .pt {
+    padding-top: 1.5rem;
+
+  }
+
+  .challenge-1 {
+    width: 25%;
+  }
+
+
+
+
+
+
+/* classes */
